@@ -5,6 +5,16 @@ def stutter(word):
     return word[0:2] + "... " + word[0:2] + "... " + word + "?"
 
 
+def stutter2(word):
+    w = word[0:2] + "... "
+    return w + w + word
+
+
+def stutter3(word):
+    w = word[0:2] + "... "
+    return w*2 + word + "?"
+
+
 print(stutter("incredible"))
 # stutter("incredible") ➞ "in... in... incredible?"
 
