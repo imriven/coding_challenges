@@ -2,13 +2,11 @@
 
 
 def is_curzon(num):
-      first = 2 ** num + 1
-  second = 2 * num + 1
-  mod = first % second
+    first = 2 ** num + 1
+    second = 2 * num + 1
 
-  if mod == 0:
-    return True
-  else :
+    if first % second == 0:
+        return True
     return False
 
 

@@ -2,9 +2,8 @@
 
 
 def add_name(obj, name, value):
-      dict = obj
-  dict.update({ name : value })
-  return dict
+    obj.update({ name : value })
+    return obj
 
 
 
