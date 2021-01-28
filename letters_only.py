@@ -1,13 +1,15 @@
 # https://edabit.com/challenge/GPKkNbytRpsAnHcrX
 
 
-def letters_only(txt):
+def letters_only2(txt):
       letter = ""
   for i in list(txt):
     if i.isalpha():
       letter += i
   return letter
 
+def letters_only(str):
+    return "".join([l for l in list(str) if l.isalpha()])
 
 print(letters_only("R!=:~0o0./c&}9k`60=y"))
 
