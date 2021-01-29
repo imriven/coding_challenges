@@ -1,7 +1,7 @@
 # https: // edabit.com/challenge/yaXQvCzAXJLe37Qie
 
 def sort_descending(num):
-      num_array = []
+  num_array = []
   for i in str(num):
     num_array.append(i)
   num_array.sort(reverse=True)
